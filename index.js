@@ -18,7 +18,7 @@ render(
 )
 
 
-class DisplayAnImage extends Component {
+class DisplayPlanets extends Component {
   render() {
     return (
       <View>
@@ -32,3 +32,5 @@ class DisplayAnImage extends Component {
     );
   }
 }
+
+AppRegistry.registerComponent('DisplayPlanets', () => DisplayPlanets);
