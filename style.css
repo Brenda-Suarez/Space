@@ -7,12 +7,10 @@
 	font-weight: lighter;
 	letter-spacing: 7px;
 	color:#E6E6EA;
+	margin-bottom: 30px;
+	margin-top: 50px;
 }
 
 body{
-<<<<<<< HEAD
-	background-color: #000000;
-=======
-	background-color: #030024;
->>>>>>> parent of 1ac109b...  changed title and added more css
+	background-color:#000000;
 }
