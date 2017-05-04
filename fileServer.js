@@ -31,6 +31,15 @@ http.createServer(function(req, res) {
 
 		fileStream.pipe(res);	
 
+	} else if (req.url.match(/.png$/)) {
+
+		var imgPath = path.join(__dirname, 'images', req.url);
+		var imgStream = fs.createReadStream(imgPath);
+
+		res.writeHead(200, {"Content-Type": "image/png"});
+
+		imgStream.pipe(res);
+
 	} else {
 		res.writeHead(404, {"Content-Type": "text/plain"});
 		res.end("404 File Not Found");
