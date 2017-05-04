@@ -4,4 +4,11 @@
 #title{
 	font-family: Avenir;
 	text-align: center;
+	font-weight: lighter;
+	letter-spacing: 7px;
+	color:#E6E6EA;
+}
+
+body{
+	background-color: #030024;
 }
