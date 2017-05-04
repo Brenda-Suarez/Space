@@ -7,8 +7,11 @@
 	font-weight: lighter;
 	letter-spacing: 7px;
 	color:#E6E6EA;
+	margin-bottom: 30px;
+	margin-top: 50px;
 }
 
 body{
 	background-color: #030024;
+	border: thick, #FDFDFD;
 }
