@@ -15,11 +15,30 @@ body{
 	background-color:#000000;
 }
 
+h4{
+	font-family: Avenir, "Century Gothic", Corbel, Garamond, 	
+	Baskervill, Helvetica, sans serif;
+	text-align:center;
+	font-weight: lighter;
+	font-size: 100%;
+}
+
 .planetBox{
-	float: left;
-	padding-top: 3px;
-	margin-right: 20px;
-	margin-bottom: 50px;
-	width: 20px;
-	height: 15px;
+	font-family: Avenir, "Century Gothic", Corbel, Garamond, 	
+	Baskervill, Helvetica, sans serif;
+	text-align:center;
+	font-size: 100%;
+	color: #FFFFFF;
+	padding-top: 70px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#sunImg{
+	width: 500px;
+	height: auto;
+}
+
+#sunText{
+	color:#FB5400;
 }

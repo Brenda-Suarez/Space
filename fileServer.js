@@ -33,7 +33,7 @@ http.createServer(function(req, res) {
 
 	} else if (req.url.match(/.png$/)) {
 
-		var imgPath = path.join(__dirname, 'images', req.url);
+		var imgPath = path.join(__dirname, req.url);
 		var imgStream = fs.createReadStream(imgPath);
 
 		res.writeHead(200, {"Content-Type": "image/png"});
