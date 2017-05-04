@@ -25,6 +25,15 @@ h4{
 	text-align:center;
 	font-weight: lighter;
 	font-size: 100%;
+	color: #FFFFFF;
+}
+
+p{
+	font-family: Avenir, "Century Gothic", Corbel, Garamond, 	
+	Baskervill, Helvetica, sans serif;
+	text-align:center;
+	font-weight: lighter;
+	font-size: 70%;
 }
 
 .planetBox{

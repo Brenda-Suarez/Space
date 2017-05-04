@@ -1,4 +1,4 @@
-// JavaScript Document
+// React Document
 const { createElement } = React
 const { render } = ReactDOM
 
