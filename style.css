@@ -15,6 +15,10 @@ body{
 	background-color:#000000;
 }
 
+.padding{
+	padding-top: 200px;
+}
+
 h4{
 	font-family: Avenir, "Century Gothic", Corbel, Garamond, 	
 	Baskervill, Helvetica, sans serif;
@@ -35,10 +39,97 @@ h4{
 }
 
 #sunImg{
-	width: 500px;
+	width: 600px;
 	height: auto;
 }
 
 #sunText{
 	color:#FB5400;
 }
+
+#mercuryImg{
+	width: 90px;
+	height: auto;
+}
+
+#mercuryText{
+	color:#F3DF92;
+}
+
+#venusImg{
+	width: 160px;
+	height: auto;
+}
+
+#venusText{
+	color:#46A400;
+}
+
+#earthImg{
+	width: 200px;
+	height: auto;
+}
+
+#earthText{
+	color:#007F83;
+}
+
+#marsImg{
+	width: 120px;
+	height: auto;
+}
+
+#marsText{
+	color:#B00002;
+}
+
+#jupiterImg{
+	width: 400px;
+	height: auto;
+}
+
+#jupiterText{
+	color:#FF2590;
+}
+
+#saturnImg{
+	width: 300px;
+	height: auto;
+}
+
+#saturnText{
+	color:#9A00E5;
+}
+
+#uranusImg{
+	width: 250px;
+	height: auto;
+}
+
+#uranusText{
+	color:#00CDED;
+}
+
+#neptuneImg{
+	width: 220px;
+	height: auto;
+}
+
+#neptuneText{
+	color:#1100C2;
+}
+
+#plutoImg{
+	width: 60px;
+	height: auto;
+}
+
+#plutoText{
+	color:#E2C302;
+}
+
+
+
+
+
+
