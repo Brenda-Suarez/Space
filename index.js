@@ -1,24 +1,15 @@
 // JavaScript Document
-import React, { Component } from 'react';
-import { AppRegistry, View, Image } from 'react-native';
+const { createElement } = React
 const { render } = ReactDOM
 
 
-<<<<<<< HEAD
-=======
 const title = createElement(
 	'h1',
 	{id: 'title', className: 'header'},
-	'The Solar System'
+	'THE SOLAR SYSTEM'
 )
 
->>>>>>> parent of 1ac109b...  changed title and added more css
 render(
-	<h1 id ='title'
-		className='header'
-	THE SOLAR SYSTEM
-	</h1>,
+	title,
 	document.getElementById('react-container')
 )
-
-
